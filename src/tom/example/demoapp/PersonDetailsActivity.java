@@ -45,7 +45,7 @@ public class PersonDetailsActivity extends Activity {
 		
 		
 		
-		new getExtraInfoFromAPI(textViews).execute(teamMember);
+		new GetExtraInfoFromAPI(textViews).execute(teamMember);
 		
 
 		ImageView personImage = (ImageView) findViewById(R.id.image);
